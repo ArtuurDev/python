@@ -1,16 +1,14 @@
-numero1 = input("calculo da area do quadrado multiplicado por dois; informe a base do quadrado:")
-numero2 = input("informe a altura do quadrado:")
+nota1 = input("digite a primeira nota:")
 
-multiplicacao1 = int(numero1) * int(numero2)
+nota2 = input("digite a segunda nota:")
 
+nota3 = input("digite a terceira nota:")
 
-
-print("A area do quadrado é:", multiplicacao1)
-
+nota4 = input("digite a quarta nota:")
 
 
-multiplicacao2 = multiplicacao1 * 2 
+adicao = int(nota1) + int(nota2) + int(nota3) + int(nota4)
+print(adicao)
 
-
-
-print("O dobro da area do quadrado é:", multiplicacao2)
+divisao = adicao / 4
+print("a media aritmética é:",divisao)
