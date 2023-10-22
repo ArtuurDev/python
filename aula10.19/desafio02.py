@@ -1,4 +1,5 @@
 #Receba a altura de uma pessoa, crie um codigo que calcule o peso ideal.
+# (de uma pessoa) eu escolhi masculino
 
 masculino_h = float(input("digite sua altura:"))
 peso_ideal = float(72.7 * masculino_h) - 58
