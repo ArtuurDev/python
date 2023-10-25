@@ -4,4 +4,4 @@
 salario = float(input("informe seu salario:"))
 porcentagem = float(input("informe a porcentagem:"))
                 
-print(f'seu novo salario é {(salario * porcentagem / 100) + salario}')                
+print(f'seu novo salario é {salario * porcentagem / 100 + porcentagem}')                
