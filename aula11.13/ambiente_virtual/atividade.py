@@ -17,5 +17,10 @@ print(lista)
 '''''
 lista = ["artur"]
 print(f'A palavra {lista[0]},está na lista')
+
 lista2 = ['a','b']
+
 print(f'a letra {lista2[0]}, está na lista')
+
+
+print(f'{lista2[0]}{lista2[1]} ')
