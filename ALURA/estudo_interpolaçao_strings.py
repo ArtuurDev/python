@@ -1,0 +1,5 @@
+print("tentativa {:d} de 2".format(1))
+print("tentativa {} de dois".format("um"))
+print("seu salario é de R$ {:.3f}".format(2.5))
+print("podendo chegar a R${:.3f}".format(4.5))
+print("a data de hoje é {:d}/{:d}/{:d}".format(14,11,2023))
