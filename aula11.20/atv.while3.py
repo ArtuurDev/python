@@ -1,9 +1,13 @@
+#Faça um programa que leia 5 números e informe o maior número.
+
 contador = 0
-while contador <= 5:
-    num1 = int(input("digite o primeiro numero:"))
-    num2 = int(input("digite o segundo numero numero:"))
-    num3 = int(input("digite o terceiro numero numero:"))
-    num4 = int(input("digite o quarto numero numero:"))
-    num5 = int(input("digite o quinto numero numero:"))
-    break
-contador +=1
+maior = 0
+lista = []
+while contador < 5:
+    num = int(input("informe o numero:"))
+    if num > 0:
+        maior = num
+        lista.append(num)
+    contador = contador + 1
+print(num)
+print(lista)
