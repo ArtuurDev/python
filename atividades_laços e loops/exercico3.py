@@ -21,7 +21,7 @@ sexo = input("informe seu sexo, 'f' para feminino 'm' para masculino: ")
 while sexo != "f" and sexo != "m":
     sexo = input("informe seu sexo, 'f' para feminino 'm' para masculino:")
 
-civil = input("qual seu estado civil? (s) para solteiro, (c) para casado, (v)para viuvo/a")
+civil = input("qual seu estado civil? (s) para solteiro, (c) para casado, (v)para viuvo/a:")
 while civil != "s" and civil != "c" and civil != "v":
     civil = input("qual seu estado civil? (s)para solteiro, (c)para casado, (v), para viuvo/a:")
     
