@@ -1,6 +1,6 @@
-contador = 0
+contador = 1
 
-while contador < 20:
+while contador <= 20:
     aluno =int(input("digite sua idade:"))
     if aluno > 13:
         print(f'o aluno {contador} tem mais de 13 anos')
