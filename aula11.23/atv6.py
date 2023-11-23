@@ -1,0 +1,6 @@
+nome = input("digite um nome:")
+print(nome.replace('a', ""))
+print(nome.replace('e', ''))
+print(nome.replace('i', ''))
+print(nome.replace('o', ''))
+print(nome.replace('u', ''))
