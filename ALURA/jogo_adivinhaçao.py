@@ -24,5 +24,6 @@ for rodada in range (1, tentativas + 1):
     else:
         if chute > 100:
             print("numero invalido")
+print("o numero secreto é",numero_secreto)
 print("fim do jogo")
     
