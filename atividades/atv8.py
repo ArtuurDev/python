@@ -1,4 +1,4 @@
-# leia o preço de um produto e mostre com 5%  de desconto
+# leia o preço de um produto e mostre com desconto
 
 
 p = float(input("digite o preço do produto que deseja comprar: "))
