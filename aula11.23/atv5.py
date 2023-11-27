@@ -7,5 +7,4 @@ vogal_u = "u"
 
 
 
-print(f'vogal (nome){vogal_a.count()} + {vogal_e.count()} + {vogal_i.count()} + {vogal_o.count()} + {vogal_u.count()}')
-
+print({vogal_a.count(vogal_a)} + {vogal_e.count()} + {vogal_i.count()} + {vogal_o.count()} + {vogal_u.count()})

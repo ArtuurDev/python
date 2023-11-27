@@ -49,10 +49,26 @@ if s_idade == 31:
     print("vc acertou, linda!")
 print("proxima pergunta...")
 conheceu = input("em que mes nos conhecemos?: ")
-while conheceu != "outubro" or conheceu != "Outubro":
+while conheceu != "outubro" and conheceu != "Outubro":
     conheceu = input("nao acredito vc errou, me beije para continuar: ")
     conheceu = input("digite 'b'")
     if conheceu == "b":
         conheceu = input("em que mes nos conhecemos?: ")
-    else:
-        print("acertou!")
+else:
+    print("acertou!")
+
+
+
+print("A proxima pergunta vc vai responder diretamente pra mim... ")
+
+print(input("Quando foi a primeira vez que falei que te amava?"))
+print("correto!!")
+print(input("qual foi a primeira vez que disse eu te amo pra mim?"))
+print("ai simm")
+print(input("como foi nosso primeiro selinho?"))
+
+print(input("no quarto da bea, como eu pedi pra vc deitar no meu ombro?"))
+
+print(input("O que vc deseja pra nos no futuro?"))
+print("É parece que vc vai ganhar seu presente")
+print("e nao vai ser so um...")
