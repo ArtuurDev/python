@@ -7,7 +7,5 @@ valor_porcentagem = float(input("informe o valor da porcentagem:"))
 calculo_porcentagem = salario_atual * valor_porcentagem / 100
 valor_novo_salario = salario_atual + calculo_porcentagem 
 
-print(salario_atual)
-print(valor_porcentagem)
-print(calculo_porcentagem)
-print("seu novo salario é:", valor_novo_salario)
+print("Seu salario atual é {}, o valor da porcentagem adicionada é {:.0f}%, e seu novo salario é {}.".format(salario_atual,valor_porcentagem,valor_novo_salario),  end="")
+print("Tenha uma bom dia")
