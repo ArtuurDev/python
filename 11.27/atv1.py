@@ -2,11 +2,11 @@
 #e "N" se seu argumento por negativo
 
 
-def arg(arg1,arg2):
-    
-    if arg1 + arg2 > 0:
-        print("P")
-    
-    else:
-        print("N")
-    print(arg1 + arg2)
+
+def sinal(numero):
+    numero = "P" if numero > 0 else "N"
+    return(numero)
+
+numero = int(input("digite um numero: "))
+numero = sinal(numero)
+print(numero)
