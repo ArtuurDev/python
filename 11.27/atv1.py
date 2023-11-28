@@ -4,9 +4,15 @@
 
 
 def sinal(numero):
-    numero = "P" if numero > 0 else "N"
-    return(numero)
+    if numero >0:
+        print("p")
+    else:
+        print("n")
 
-numero = int(input("digite um numero: "))
-numero = sinal(numero)
-print(numero)
+
+
+
+
+
+
+
