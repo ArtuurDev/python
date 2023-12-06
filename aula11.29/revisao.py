@@ -1,5 +1,12 @@
 lista = ["a","e", "i", "o", "u"]
 
-while True:
-    print(lista[::-1])
+
+
+
+
+var = input("digite um numero:")
+"-".join(var)
+print(var)
+
     
+

@@ -1,0 +1,3 @@
+import estudo
+
+estudo.soma()
