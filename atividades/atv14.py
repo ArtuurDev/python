@@ -4,9 +4,9 @@
 
 soma = 0
 for i in range(1,7):
-    n =  int(input("digite um numero: "))
+    n =  int(input("digite um numero par: "))
     if n % 2 == 0:
         soma += n
     if n % 2 != 0:
-        print("so numeros pares")
-print("o resultado da soma entre os 6 numeros pares é {}".format(soma))
+        print("O numero {} é nao é par".format(n))
+print("o resultado da soma entre os 6 numeros é {}".format(soma))
