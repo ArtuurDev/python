@@ -7,4 +7,4 @@ pessoas.append(dados[::])
 print(pessoas)
 
 pessoas = [["pedro",25],["artur",17]]
-print(pessoas[0])
+print(pessoas[1][1])
