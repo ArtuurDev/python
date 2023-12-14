@@ -1,13 +1,9 @@
-sexo = input("informe seu sexo com a letra F para feminino ou M para masculino:")
+class FoneDeOuvido:
+    def get_volume(self):
+        return self.volume
+    def set_volume(self, novo_volume):
+        self.volume = novo_volume
 
-if sexo == "F" or sexo == "f":
-    print("sexo feminino")
-
-elif sexo == "M" or sexo == "m":
-    print("sexo masculino")
-
-else:
-    print("sexo invalido")
-
-
- 
+    volume = property(get_volume, set_volume)
+fone = FoneDeOuvido(200)
+fone.set_volume(200)
