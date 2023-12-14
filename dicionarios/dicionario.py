@@ -37,3 +37,5 @@ dic2 = {'nome2': 'meire', 'idade': '37',
 lista.append(dic)
 lista.append(dic2)
 print(lista)
+dic['aula'] = 5
+print(dic)
