@@ -2,15 +2,8 @@
 
 
 
-from funçao import conta, saca, deposita
+from data import Data
 
+data = Data(17,12,2023)
 
-cont = conta("artur",17,100)
-
-print(cont)
-
-saca(cont,50)
-print(cont)
-
-deposita(cont, 600)
-print(cont)
+data.formatando_data()
