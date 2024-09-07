@@ -12,3 +12,5 @@ dic.update(geisa = 10)
 dic.update(kaynan = 10)
 dic.update(lara = 10)
 print(dic)
+
+
