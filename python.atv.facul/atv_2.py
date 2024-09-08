@@ -7,12 +7,13 @@
 
 
 
-lista_nota_filmes = {'homem aranha': 0, 'a freira': 0, 'picapau': 0, 'ta chovendo hamburguer': 0, 'deadpool': 0}
+dic_nota_filmes = {'homem aranha': 0, 'a freira': 0, 'picapau': 0, 'ta chovendo hamburguer': 0, 'deadpool': 0}
 
-for filme in lista_nota_filmes:
+for filme in dic_nota_filmes:
     nota = float(input(f'de uma nota para o {filme}: '))
-    lista_nota_filmes[filme] = nota
-    if filme == 4:
+    dic_nota_filmes[filme] = nota
+    if filme == 'deadpool':
+        print('Obrigado por sua avaliação!')
         break
     else:
         saida = int(input('deseja sair encerrar? 0 para sim 1 para não:'))
@@ -21,4 +22,4 @@ for filme in lista_nota_filmes:
         
         else:
             continue
-print(lista_nota_filmes)
+print(dic_nota_filmes)
