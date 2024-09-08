@@ -12,10 +12,13 @@ lista_nota_filmes = {'homem aranha': 0, 'a freira': 0, 'picapau': 0, 'ta chovend
 for filme in lista_nota_filmes:
     nota = float(input(f'de uma nota para o {filme}: '))
     lista_nota_filmes[filme] = nota
-    saida = int(input('deseja sair encerrar? 0 para sim 1 para não:'))
-    if (saida == 0):
+    if filme == 4:
         break
-        
     else:
-        continue
+        saida = int(input('deseja sair encerrar? 0 para sim 1 para não:'))
+        if (saida == 0):
+            break
+        
+        else:
+            continue
 print(lista_nota_filmes)
